@@ -14,6 +14,10 @@ module MyEnumerable
   end
 
   def filter
-
+    filtered = []
+    @list.each do |item|
+      filtered << item if yield item
+    end
+    filtered
   end
 end

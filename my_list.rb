@@ -1,14 +1,14 @@
-require_relative "MyEnumerable"
+require_relative 'MyEnumerable'
 
 class MyList
   include MyEnumerable
 
-  def initialize list
+  def initialize(list)
     @list = list
   end
 
-  def each
-    @list.each { |item| yield(item) }
+  def each(&block)
+    @list.each(&block)
   end
 end
 

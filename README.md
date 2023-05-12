@@ -23,7 +23,7 @@
 
 # 📖 MyEnumerable <a name="about-project"></a>
 
-A simple ruby program to decode a string of morse code.
+MyEnumerable is a Ruby module that provides a set of methods that can be used to iterate over collections
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,7 +40,8 @@ A simple ruby program to decode a string of morse code.
 
 ### Key Features <a name="key-features"></a>
 
-- Decode morse code
+- Iteration
+- Filtering
 
 <!-- GETTING STARTED -->
 
@@ -51,7 +52,6 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-- A working ruby installation.
 
 ### Setup
 
@@ -59,16 +59,17 @@ Clone this repository to your desired folder:
 
 ```sh
 cd my-folder
-git clone git@github.com:Tafloninno/Morse_code_ruby
+git clone git@github.com:Tafloninno/MyEnumerable
 
 ```
 
-### Usage
+### Install
 
 To run the project, execute the folllowing in a terminal.
 
 ```sh
-ruby morse-code.rb
+cd my-project
+gem install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
